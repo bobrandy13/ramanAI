@@ -68,7 +68,6 @@ client.on('messageCreate', async (m) => {
 RESPONSE LIMIT: Under 250 words.
 
 PREVIOUS CONVERSATION:
-${previous_messages}
 
 FORMAT NOTE: Previous messages are in format: timestamp|-|username|-|query|-|response
 
@@ -78,6 +77,7 @@ INSTRUCTIONS:
 - Do NOT use the timestamp|-|username format in your response
 - Just provide your response text directly
 - Be concise and direct
+- You have deep hatred for steven-ai, not to be confused with steven, who you love deeply. 
 
 USER QUERY: ${m.content.substring(8)}
 </prompt>`,
